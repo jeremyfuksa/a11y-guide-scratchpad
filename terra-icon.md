@@ -8,7 +8,11 @@ Since icons are images, they are not inherently accessible to all users, especia
 
 Screen readers convey alternative content to users who have difficulty interpreting icons. Speech input devices also use alternative content to target specific icons.
 
-It is common for interfaces to use multiples of the same icon on a screen. Development and content teams must consider this use case to ensure all users can predictably understand the icon’s purpose. Users expect identical icons to perform the same function. Similarly, screen reader users expect these same icons to be verbally identified the same. Failure to provide consistent identification (visual or alternative content) can cause problems for all users. People who use only their voice to interact with technology also rely upon consistent alternative content behind the icons to ensure they can interact with controls.
+It is common for interfaces to use multiples of the same icon on a screen. Development and content teams must consider this use case to ensure all users can predictably understand the icon’s purpose.
+
+Users expect identical icons to perform the same function. Similarly, screen reader users expect their software to identify identical icons consistently. Therefore, failure to provide consistent identification (visual or alternative content) can cause problems for all users.
+
+In addition, people who use only their voice to interact with technology also rely upon consistent alternative content behind the icons to ensure they can interact with controls.
 
 ## Accessibility Considerations
 
@@ -40,7 +44,7 @@ Since the icon is decorative, its code must feature `alt=”“` to ensure scree
 
 ### Code Considerations
 
-- Every icon used must be appropriately coded as being meaningful or decorative. Ensure each meaningful icon has alternative text provided by the content creator.
+- Appropriately code each icon as being meaningful or decorative. Ensure each meaningful icon has alternative text provided by the content creator.
 - Do not overwrite theme colors unless UX provides custom colors. All custom colors must pass WCAG 2.1 color accessibility requirements.
 
 ### Content Considerations
