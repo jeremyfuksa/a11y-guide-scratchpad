@@ -2,7 +2,7 @@
 
 ## Why is icon accessibility important?
 
-Accessibility of icons is important because icons are ubiquitous. They can convey visual meaning or be used as a decorative or supportive element in a UI design and are an essential tool for creating intuitive user experiences that are appropriate for all languages. However, when used inaccessibly or improperly, they are **not** understood natively by everyone.
+Accessibility of icons is important because icons are ubiquitous. They can convey visual meaning or be used as a decorative or supportive element in a UI design and are an essential tool for creating intuitive user experiences that are appropriate for all languages. However, if implemented improperly or without alternative content, they are **not** understood natively by everyone.
 
 Since icons are images, they are not inherently accessible to all users, especially those with significantly impaired vision or blindness. Therefore, interface icons **must** have alternative content.
 
