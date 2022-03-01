@@ -20,7 +20,7 @@ Icons that convey information **must** have alternative text in code to ensure t
 
 In this example, the plus (+) icon is meaningful.
 
-Although the icon is visually related to “Clinical Note,” no text supports its function to “add” something. Therefore, the icon’s code must include `alt=”add”` to adequately convey this to a screen reader user. The screen reader would read the icon’s alternative text, followed by the button’s text label. In all, the user would hear, **”Add. Clinical Note.”**
+Although the icon is visually related to “Clinical Note,” no text supports its function to “add” something. Therefore, the icon’s code must include `alt=”Add”` to adequately convey this to a screen reader user. The screen reader would read the icon’s alternative text, followed by the button’s text label. In all, the user would hear, **”Add Clinical Note.”**
 
 #### Considerations for Meaningful Icons Used Within Components
 
